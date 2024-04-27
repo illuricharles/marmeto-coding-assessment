@@ -21,7 +21,6 @@ async function fetchDetails() {
     
     const colorValues = options[0].values
     const sizeValues = options[1].values
-    console.log(sizeValues)
 
     const productImageContainerEl = document.getElementById('productImageContainer')
 
@@ -29,7 +28,6 @@ async function fetchDetails() {
     productMainImage.classList.add('product-main-image')
     productMainImage.src = images[0].src
     productMainImage.alt = "Product Image"
-    console.log(images[0].src)
     productImageContainerEl.appendChild(productMainImage)
 
     const thumbnailContainerEl = document.createElement('div')
@@ -95,7 +93,6 @@ async function fetchDetails() {
 
     // Size Selector
     sizeValues.forEach(eachSizeValue => {
-        console.log(eachSizeValue)
         const sizeTypeContainer = document.createElement('div')
         sizeTypeContainer.classList.add('size-type-container')
 
@@ -132,7 +129,6 @@ async function fetchDetails() {
     // Description
     const descriptionContainerEl = document.getElementById('descriptionContainer')
     descriptionContainerEl.innerHTML = description
-    console.log(description)
     descriptionContainerEl.classList.add('description')
 
 
