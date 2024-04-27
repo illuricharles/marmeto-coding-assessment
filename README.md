@@ -22,14 +22,7 @@ This project implements a product details page with an "Add to Cart" feature for
 
 ## Implementation Details
 
-- Ensure that the layout matches the design provided, with all the mentioned details correctly positioned and styled.
+
 - Use JavaScript to calculate the percentage discount based on the provided price and compare at price.
-- Implement functionality to save selected variant data upon change and display the corresponding product details.
+
 - When the "Add to Cart" button is clicked, show a message confirming the addition of the product to the cart with its details.
-
-## Usage
-
-1. Clone this repository to your local machine.
-2. Incorporate the provided HTML, CSS, and JavaScript files into your web project.
-3. Ensure proper linking of assets (images, buttons, etc.) and functionality implementation as per the specifications.
-
